@@ -5,9 +5,8 @@
  *
  */
 
-export CounterButton from './CounterButton/CounterButton';
-export GithubButton from './GithubButton/GithubButton';
-export InfoBar from './InfoBar/InfoBar';
-export MiniInfoBar from './MiniInfoBar/MiniInfoBar';
-export SurveyForm from './SurveyForm/SurveyForm';
-export WidgetForm from './WidgetForm/WidgetForm';
+export Footer from './Footer';
+export Header from './Header';
+export TodoInput from './TodoInput';
+export TodoItem from './TodoItem';
+export TodoList from './TodoList';

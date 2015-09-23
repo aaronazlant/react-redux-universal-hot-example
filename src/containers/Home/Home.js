@@ -3,9 +3,7 @@ import { bindActionCreators } from 'redux';
 import {connect} from 'react-redux';
 import * as TodoActions from '../../actions/todoActions';
 import { VisibilityFilters } from  '../../actions/actionTypes';
-import Header from '../../components/Header';
-import TodoList from '../../components/TodoList';
-import Footer from '../../components/Footer';
+import { Header, TodoList, Footer } from '../../components';
 
 export function selectTodos(todos, filter) {
   switch (filter) {
